@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif; /* Fuente principal */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Color de fondo */
+    background-image: url('https://media.pauta.cl/2024/05/Imagen1.png'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Cubrir todo el área del fondo */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar que se repita la imagen */
+    position: relative; /* Necesario para aplicar el filtro de superposición */
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente oscuro para legibilidad */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white; /* Color de texto blanco para mayor contraste */
+    position: relative; /* Asegura que el contenido esté sobre el fondo oscurecido */
+    z-index: 1; /* Asegura que el contenido esté sobre el fondo oscurecido */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Cambia la fuente para todo el contenido */
+  }
+  
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .logo-container img {
+    width: 100px; /* Tamaño del logo */
+    height: auto;
+    margin-bottom: 1px;
+  }
+  
+  h1 {
+    font-family: 'Moderniz', sans-serif; /* Fuente para el título principal */
+    color: #f1ff27;
+    margin-bottom: 0px;
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-family: 'Moderniz', sans-serif; /* Fuente para el subtítulo */
+    color: #cca910;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-family: 'Nexa'; /* Fuente para el subtítulo */
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  
+  p {
+    font-family: 'Nexa'; /* Fuente para los párrafos */
+    color: #ffffff; /* Color de texto gris claro */
+    margin-bottom: 25px;
+  }
+  
+  .button {
+    font-family: 'Nexa'; /* Fuente para los botones */
+    display: inline-block;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .footer-text {
+    font-family: 'Nexa'; /* Fuente para el texto del pie de página */
+    color: rgb(217, 231, 17)fff;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
